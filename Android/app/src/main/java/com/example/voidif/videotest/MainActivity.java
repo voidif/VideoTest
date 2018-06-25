@@ -14,6 +14,7 @@ import android.widget.ProgressBar;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,18 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         pgBar = findViewById(R.id.pgbar);
 
-
-
         initView();
-
-        camera.setPreviewCallback(new Camera.PreviewCallback() {
-            @Override
-            public void onPreviewFrame(byte[] data, Camera camera) {
-                BackgroundTask myTask = new BackgroundTask(camera, data);
-                myTask.execute(1);
-            }
-        });
-
 
     }
 
@@ -59,8 +49,25 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+
+                List<Camera.Size> supportedPreviewSizes = camera.getParameters().getSupportedPreviewSizes();
+
+                Camera.Parameters paras = camera.getParameters();
+                paras.setPreviewSize(160, 120);
+                paras.setPreviewFrameRate(10);
+                camera.setParameters(paras);
+
+                camera.setPreviewCallback(new Camera.PreviewCallback() {
+                    @Override
+                    public void onPreviewFrame(byte[] data, Camera camera) {
+                        BackgroundTask myTask = new BackgroundTask(camera, data);
+                        myTask.execute(1);
+                    }
+                });
+
                 camera.setDisplayOrientation(90);
                 camera.startPreview();
+
 
             }
 

@@ -3,6 +3,7 @@
           package="com.example.voidif.videotest">
 
     <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
 
 
