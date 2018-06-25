@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/voidif/videotest/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+            <state relative-caret-position="163">
+              <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#891#1149#0" expanded="true" />
@@ -42,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkTool.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="YuvImage.java" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Softwares/Android/Sdk/sources/android-26/android/graphics/YuvImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkTool.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/voidif/videotest/NetworkTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2218,12 +2227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529890526571</updated>
-      <workItem from="1529890575029" duration="6487000" />
+      <workItem from="1529890575029" duration="7567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6487000" />
+    <option name="totallyTimeSpent" value="7567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
@@ -2336,24 +2345,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/voidif/videotest/NetworkTool.java">
+    <entry file="file://E:/Softwares/Android/Sdk/sources/android-26/android/graphics/YuvImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/voidif/videotest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        <state relative-caret-position="163">
+          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#891#1149#0" expanded="true" />
             <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/voidif/videotest/NetworkTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
