@@ -6,11 +6,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="com.example.voidif.videotest.MainActivity">
-
-    <SurfaceView
-            android:id="@+id/view"
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            />
+            android:orientation="vertical">
+
+        <ProgressBar
+                android:id="@+id/pgbar"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                style="?android:attr/progressBarStyleHorizontal"/>
+        <SurfaceView
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        />
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
