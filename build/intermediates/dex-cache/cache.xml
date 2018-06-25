@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.2\bfc967828daffc35ba01c9ee204d98b664930a0f\constraint-layout-solver-1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="bfc967828daffc35ba01c9ee204d98b664930a0f">
+        <dex dex="E:\Codes\Java\VideoTest\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.2_c8659c31d41af6c660af103eeb1d65d53bf08367.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\ecd3f4ccf0280359699e495ecb41165e6fdd3207\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="182370a4a0bba7903c6ff2cb7b6ac21ca4a4bf89">
+        <dex dex="E:\Codes\Java\VideoTest\app\build\intermediates\pre-dexed\debug\classes_7eedbc98c451b4d512673a1852721cd984a752ff.jar" />
+    </item>
+
+</items>
