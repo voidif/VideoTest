@@ -11,16 +11,25 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-        <ProgressBar
-                android:id="@+id/pgbar"
-                android:layout_width="fill_parent"
-                android:layout_height="10dp"
-                style="?android:attr/progressBarStyleHorizontal"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+            <Button
+                    android:id="@+id/connect"
+                    android:text="connect"
+                    android:layout_height="match_parent"
+                    android:layout_width="100dp"/>
+            <Button
+                    android:id="@+id/send"
+                    android:text="send"
+                    android:layout_height="match_parent"
+                    android:layout_width="100dp"/>
+        </LinearLayout>
         <SurfaceView
                 android:id="@+id/view"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-        />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
     </LinearLayout>
 
 

@@ -1,5 +1,6 @@
 package com.example.voidif.videotest;
 
+import android.app.Activity;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.YuvImage;
@@ -9,7 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -18,9 +22,12 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static int count = 0;
     private SurfaceView view;
     private SurfaceHolder holder;
     private Camera camera;
+    private Button connect;
+    private Button send;
 
     private ProgressBar pgBar;
 
@@ -30,14 +37,52 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        pgBar = findViewById(R.id.pgbar);
+        view = findViewById(R.id.view);
+        connect = findViewById(R.id.connect);
+        send = findViewById(R.id.send);
 
         initView();
 
+        connect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initNetwork();
+            }
+        });
+
+        send.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(NetworkTool.isConnected){
+                    NetworkTool.sendSwitch = true;
+//                    new Thread(){
+//                        @Override
+//                        public void run() {
+//                            super.run();
+//                            NetworkTool.send(null);
+//                        }
+//                    }.start();
+                } else {
+                    Toast.makeText(MainActivity.this, "Conncet Server first!", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+    }
+
+    public void initNetwork(){
+        new Thread(){
+            @Override
+            public void run() {
+                super.run();
+                NetworkTool.connect();
+//                Toast.makeText(MainActivity.this, "Connect server " + NetworkTool.isConnected,
+//                        Toast.LENGTH_SHORT);
+            }
+        }.start();
     }
 
     public void initView(){
-        view = findViewById(R.id.view);
+
         holder = view.getHolder();
         holder.addCallback(new SurfaceHolder.Callback() {
             @Override
@@ -98,6 +143,9 @@ class BackgroundTask extends AsyncTask<Integer, Integer, String>{
 
     @Override
     protected String doInBackground(Integer... params) {
+        if(!NetworkTool.sendSwitch){
+            return null;
+        }
         Camera.Size size = camera.getParameters().getPreviewSize();
         int wide = size.width;
         int high = size.height;

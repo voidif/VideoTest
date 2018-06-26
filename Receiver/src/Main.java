@@ -21,19 +21,32 @@ public class Main {
             ServerSocket server = new ServerSocket(30000);// listening for connections on port 8000
             Socket childSocket = server.accept();// accept and connect to a scocket
 
+            jfr.setVisible(true);
+            jfr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            jfr.add(jlb);// JLabel container being added to the JFrame container
+            DataInputStream is = new DataInputStream(childSocket.getInputStream());     //获取输入流
 
+            int count  = 1;
             while(true){
+                count ++;
                 //3.连接后获取输入流，读取客户端信息
-                InputStream is = childSocket.getInputStream();     //获取输入流
-                byte[] data = is.readAllBytes();
+
+
+                int length = is.readInt();
+                System.out.print("length " + length);
+                byte[] data = new byte[length];
+                is.readFully(data, 0, length);
 
                 InputStream in = new ByteArrayInputStream(data);
                 BufferedImage im = ImageIO.read(in); // creating an image from the byte array
+
+                if(im == null){
+                    continue;
+                }
                 jlb.setIcon(new ImageIcon(im));// setting the image onto the JLabel container
-                jfr.add(jlb);// JLabel container being added to the JFrame container
                 jfr.pack();
-                jfr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                jfr.setVisible(true);
+
+
                 System.gc();
             }
         }
