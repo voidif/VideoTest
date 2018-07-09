@@ -1,11 +1,15 @@
 package com.example.voidif.videotest;
 
-import android.app.Activity;
+import android.Manifest;
+import android.content.Context;
+import android.content.pm.PackageManager;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.YuvImage;
 import android.hardware.Camera;
 import android.os.AsyncTask;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.SurfaceHolder;
@@ -36,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            //申请权限，REQUEST_TAKE_PHOTO_PERMISSION是自定义的常量
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.CAMERA},
+                    1);
+        }
 
         view = findViewById(R.id.view);
         connect = findViewById(R.id.connect);
@@ -100,7 +111,8 @@ public class MainActivity extends AppCompatActivity {
                 Camera.Parameters paras = camera.getParameters();
                 paras.setPreviewSize(160, 120);
                 paras.setPreviewFrameRate(10);
-                camera.setParameters(paras);
+                //
+                // camera.setParameters(paras);
 
                 camera.setPreviewCallback(new Camera.PreviewCallback() {
                     @Override
@@ -166,7 +178,6 @@ class BackgroundTask extends AsyncTask<Integer, Integer, String>{
 //        int value = values[0];
 //        pgBar.setProgress(value);
 //    }
-
 
 }
 
