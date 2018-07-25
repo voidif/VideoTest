@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>voidif</groupId>
+    <artifactId>Receiver</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!--
+        第一位表示大版本号
+        第二位表示分支版本号
+        第三位表示小版本号
+        0.0.1-SNAPSHOT
+        SNAPSHOT 快照
+        alpha 内部测试
+        beta 公测
+        Release 稳定
+        GA 正式发布
+     -->
+    <!-- Maven项目打包的方式，不指定的话默认为jar，还可以打包为 war zip pom -->
+    <packaging>jar</packaging>
+
+    <!-- 项目描述名，产生项目文档的时候被使用 -->
+    <name></name>
+    <!-- 项目的地址 -->
+    <url>http://maven.apache.org</url>
+    <!-- 项目描述 -->
+    <description></description>
+    <!-- 开发人员列表 -->
+    <developers></developers>
+    <!-- 许可证信息 -->
+    <licenses></licenses>
+    <!-- 组织信息 -->
+    <organization></organization>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- 依赖列表 -->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/javax.media/jmf -->
+        <dependency>
+            <groupId>javax.media</groupId>
+            <artifactId>jmf</artifactId>
+            <version>2.1.1e</version>
+        </dependency>
+    </dependencies>
+
+    <!-- 通常为我们构件的行为提供相应的支持 -->
+    <build>
+        <!-- 插件列表，可以引入多个插件 -->
+        <plugins>
+        </plugins>
+    </build>
+
+</project>
