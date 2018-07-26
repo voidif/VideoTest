@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\d1f56cd3a140783b16a05f055e879ff77ad3d258\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_29a687de976a9805e47aec92bd4daefeece4b72a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\13da19425c9200668409fcfa618556c1cd1c0fb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_d2d96c700193e3050ca86a18d84af6af6a6c39bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\d25410083eab300cc8336c265783e648423289e7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_af162852216a9305d4f662aff1e582a868e7b4fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\003a66ea3166f46a7e23c43a8ddab8e62cf88006\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_61fe9b531e8a91cf64083a19b93eb2d146ce25db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\32ed68bbefc80a06632a72da892525249175f003\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_590760dd984e76c6a2734de652fa58c05bfed654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\common-1.0.0_bc24613d5497823dcdd33ed4485dfd5bcefe6a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\e52918bd787b49c7bb8c40c4511a5d2a72f598d8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_07da775fa8913c8417f302275be50ae485e7a6bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\89cd39c2da6e09420c6b7d2d4c3abe0c3fcb053b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_a7eb39cf10fa8af2ef8e38dd5c4b60718d9dbb90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\5c9f65ad4ad6d9b40c733993f037c2733be01db4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_da41f46427fa525b0c8dbe9c0017eb945114c0e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\c32f49b120691073446f7ec8582e2ce8488a0e24\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_d9748bac82744777781f3780345454117bc6a9c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_ad0f4afc4bbdc4c6bb754c4af56acb88a731cc3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\common-1.0.0_2c1c72533178f671386ee81a4908632a2ee9e974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\voidif\.android\build-cache\31bd40f5dbde9a8c330c0d29c113ba5419c64d39\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="E:\Codes\Java\VideoTest\Android\app\build\intermediates\pre-dexed\debug\classes_93a734de361cfdfb9fa374e90e5cfa537d39764c.jar" />
+    </item>
+
+</items>

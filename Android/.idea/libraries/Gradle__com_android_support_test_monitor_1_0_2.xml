@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.android/build-cache/c0c4099a57202df87e9f4967a48d50edc8eadfab/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test/monitor/1.0.2/5764301056100b445e9ba31df7d1b554a55450f6/monitor-1.0.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

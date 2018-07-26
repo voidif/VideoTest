@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.android/build-cache/548bc2318fba7dd3ddc0f4bacb59aa6619d4ab90/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test.espresso/espresso-core/3.0.2/433f4f601a3f3835691d80838dd7ff9414931b05/espresso-core-3.0.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
